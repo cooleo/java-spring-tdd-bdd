@@ -1,0 +1,32 @@
+group 'demo-java-hungnguyendang'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven { url 'https://repo.spring.io/libs-milestone' }
+    maven { url 'https://repo.spring.io/plugins-release' }
+    maven { url "https://repo.spring.io/libs-snapshot" }
+    maven { url 'https://repo.spring.io/libs-release' }
+    mavenCentral()
+
+
+}
+ext {
+    springBootVersion = '1.2.4.RELEASE'
+    junitVersion = '4.11'
+}
+
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
+    compile("org.springframework.boot:spring-boot-starter-data-mongodb:$springBootVersion")
+    compile("org.springframework.boot:spring-boot-starter-logging:$springBootVersion")
+    testCompile("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
+
+}
+
