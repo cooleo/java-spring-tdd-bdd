@@ -1,4 +1,4 @@
-# demo-java-hungnguyendang
+# Spring Java Demo TDD, BDD
 Demo TDD with sample application
 
 ## Setup gradle
