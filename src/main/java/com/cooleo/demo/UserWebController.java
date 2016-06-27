@@ -1,7 +1,7 @@
-package com.smoovpost.demo;
+package com.cooleo.demo;
 
-import com.smoovpost.data.entities.User;
-import com.smoovpost.data.services.UserService;
+import com.cooleo.data.entities.User;
+import com.cooleo.data.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

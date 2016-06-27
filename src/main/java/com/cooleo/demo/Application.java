@@ -1,6 +1,6 @@
-package com.smoovpost.demo;
+package com.cooleo.demo;
 
-import com.smoovpost.data.MongoConfiguration;
+import com.cooleo.data.MongoConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
-@ComponentScan(basePackages = "com.smoovpost.data")
+@ComponentScan(basePackages = "com.cooleo.data")
 @EnableAutoConfiguration(exclude = {MongoConfiguration.class})
 public class Application {
 

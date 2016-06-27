@@ -1,6 +1,6 @@
-package com.smoovpost.data.repositories;
+package com.cooleo.data.repositories;
 
-import com.smoovpost.data.entities.User;
+import com.cooleo.data.entities.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**

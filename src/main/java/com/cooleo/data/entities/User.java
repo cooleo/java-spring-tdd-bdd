@@ -1,6 +1,5 @@
-package com.smoovpost.data.entities;
+package com.cooleo.data.entities;
 
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.annotation.Id;

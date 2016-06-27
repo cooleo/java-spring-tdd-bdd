@@ -1,8 +1,8 @@
-package com.smoovpost.data.impl;
+package com.cooleo.data.impl;
 
-import com.smoovpost.data.entities.User;
-import com.smoovpost.data.repositories.UserRepository;
-import com.smoovpost.data.services.UserService;
+import com.cooleo.data.entities.User;
+import com.cooleo.data.repositories.UserRepository;
+import com.cooleo.data.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package com.smoovpost.data.impl;
+package com.cooleo.data.impl;
 
-import com.smoovpost.demo.Application;
+import com.cooleo.demo.Application;
 
 
 /**
@@ -9,8 +9,8 @@ import com.smoovpost.demo.Application;
 
 import static org.junit.Assert.*;
 
-import com.smoovpost.data.entities.User;
-import com.smoovpost.data.services.UserService;
+import com.cooleo.data.entities.User;
+import com.cooleo.data.services.UserService;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

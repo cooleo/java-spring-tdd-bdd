@@ -1,4 +1,4 @@
-package com.smoovpost.data;
+package com.cooleo.data;
 
 import com.mongodb.Mongo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 @Configuration
 @PropertySource(value = {"classpath:mongodb.properties"})
 
-@EnableMongoRepositories(basePackages = {"com.smoovpost.data"})
+@EnableMongoRepositories(basePackages = {"com.cooleo.data"})
 public class MongoConfiguration /*extends AbstractMongoConfiguration*/ {
     @Autowired
     private Environment env;

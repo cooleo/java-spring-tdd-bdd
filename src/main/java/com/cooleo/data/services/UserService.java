@@ -1,6 +1,6 @@
-package com.smoovpost.data.services;
+package com.cooleo.data.services;
 
-import com.smoovpost.data.entities.User;
+import com.cooleo.data.entities.User;
 
 import java.util.List;
 
